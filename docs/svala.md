@@ -24,6 +24,8 @@ Untested, not working, future improvements:
 - Svelte 5 Runes support (`$props`, `$state`, etc.)
 - Legacy props parameters (`export let ...`)
 
+Note that there were a lot of trials and tribulations with hard to debug errors (and in general it was hard to know where to go and what to do), which you won't really see by seeing this rather clean final result.
+
 ## Results
 
 ### The bad
