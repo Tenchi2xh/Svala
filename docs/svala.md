@@ -119,7 +119,9 @@ In the above component, we have a demo of all the goal features we wanted:
     def fib(n: Int) = fibonacci(n).mkString(" - ")
     ```
 
-    And call use that to render some reactive text:
+    This works because the SBT project is configured with both the current Svelte file's code and the whole source directory as compilation targets, so the import of another internal package will work as expected.
+
+    We can now call our function to render some reactive text:
 
     ```html
     <div>Fibonacci numbers: {fib(a)}</div>
