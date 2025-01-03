@@ -71,7 +71,7 @@ In the above component, we have a demo of all the goal features we wanted:
 
 1. Scala directly in a Svelte file:
 
-    Using a custom pre-processor (in `svelte.config.js`), we are feeding the tag's code into a temporary Scala file, and then running SBT to compile all source files + that temporary file into a JS bundle, which then replaces the script tag and regular Svelte compilation occurs.
+    Using a custom pre-processor (check it out in [`svelte.config.js`](/svelte.config.js)), we are feeding the tag's code into a temporary Scala file, and then running SBT to compile all source files + that temporary file into a JS bundle, which then replaces the script tag and regular Svelte compilation occurs.
 
     However this means that _**each Svelte file**_ will contain _**the whole ScalaJS runtime, Scala standard library (tree-shaken), all the user defined libs in its code**_.
 
