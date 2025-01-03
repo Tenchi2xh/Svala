@@ -87,11 +87,11 @@ In the above component, we have a demo of all the goal features we wanted:
 
     Any variable or function that needs to be referred from the Svelte side needs to be declared as `@JSExportTopLevel("name")`, and then the post-processor will find the generated exports (e.g. `export { $t_LScript$package$__a as a }`) and use that as a mapping to replace all mangled names with their original names, letting Svelte use them in the global scope.
 
-    <center>
+    <p align="center">
     <img src="reactivity.gif" />
     <br>
     <em>It works!</em>
-    </center>
+    </p>
 
 3. Imports from other Scala files:
 
@@ -125,11 +125,11 @@ In the above component, we have a demo of all the goal features we wanted:
     <div>Fibonacci numbers: {fib(a)}</div>
     ```
 
-    <center>
+    <p align="center">
     <img src="fib.gif" />
     <br>
     <em>It works!</em>
-    </center>
+    </p>
 
 4. Imports from JS/TS libraries:
 
@@ -165,14 +165,14 @@ In the above component, we have a demo of all the goal features we wanted:
 
     Because SBT is set up to also export a main function that gets automatically called in the JS world, our code gets executed correctly and the native `onMount` function from Svelte is called:
 
-    <center>
-    <img src="onMount.png" />
+    <p align="center">
+    <img src="onMount.png"  />
     <br>
     <em>It works!</em>
-    </center>
+    </p>
 
 ## Conclusion
 
 It works!
 
-<small><small><small><small><em>But it's so weird!</em></small></small></small></small>
+<sub><sub><em>(But it's so weird!)</em></sub></sub>
