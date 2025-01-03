@@ -1,6 +1,6 @@
 # Using other languages in Svelte
 
-## Intro
+## Goals
 
 Svelte already supports JavaScript and TypeScript, through an attribute of the `script` tag:
 
