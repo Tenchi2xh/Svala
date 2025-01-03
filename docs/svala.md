@@ -170,7 +170,7 @@ In the above component, we have a demo of all the goal features we wanted:
     Because SBT is set up to also export a main function that gets automatically called in the JS world, our code gets executed correctly and the native `onMount` function from Svelte is called:
 
     <p align="center">
-    <img src="onMount.png"  />
+    <img src="onMount.png" width=373 />
     <br>
     <em>It works!</em>
     </p>
